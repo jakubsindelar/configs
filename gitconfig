@@ -1,0 +1,12 @@
+[user]
+         name = jakubsindelar
+         email = j.sindelar01@gmail.com
+	signingkey = 54BBD81F
+[alias]
+        cm = !git add -A && git commit -a -S -m
+        res = reset --hard HEAD
+	ch = !git checkout
+[color]
+	ui = auto
+[commit]
+	gpgsign = true
